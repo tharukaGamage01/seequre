@@ -19,7 +19,7 @@ jobs:
 
       - name: Install firebase
         working-directory: ./Main
-        run: npm firebase
+        run: npm install firebase
       
         
         
