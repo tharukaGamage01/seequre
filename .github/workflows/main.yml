@@ -16,6 +16,11 @@ jobs:
       - name: Install dependencies
         working-directory: ./Main
         run: npm install
+
+      - name: Install firebase
+        working-directory: ./Main
+        run: npm firebase
+      
         
         
 
